@@ -1,7 +1,26 @@
-:root {
-    --primary-font: "Raleway";
-    --secondary-font: "Open Sans"
+* {
+    box-sizing: border-box;
+}
 
+:root {
+    --primary-font-raleway: "Raleway";
+    --secondary-font-opensans: "Open Sans";
+
+    --color-primary: #08A6E4;
+    --color-primary-shadow: rgba(7, 172, 230, .16);
+    --color-redish: #EB476E;
+    --color-green: #55DFB4;
+    --color-black: #000000;
+    --color-grey: #A5A5A5;
+    --color-light-grey: #F7F7F7;
+    --color-white: #FFFFFF;
+
+    /** em, rem - setting font size or line height
+        
+        vw, vh - when you have to force the element to have width or height relative to the screen size (useful when the section has to occupy 100% of the screen height)
+        
+        px - margins, paddings, shadows, borders, etc. 
+        */
 }
 
 .container {
@@ -9,5 +28,7 @@
 }
 
 .heading {
-    font-family: var(--primary-font);
+    font-family: var(--primary-font-raleway);
+    font-size: 60px;
+
 }
