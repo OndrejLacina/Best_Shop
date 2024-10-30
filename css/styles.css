@@ -1,9 +1,13 @@
-* {}
-
 :root {
-    --main-color: red;
+    --primary-font: "Raleway";
+    --secondary-font: "Open Sans"
+
 }
 
 .container {
     max-width: var();
+}
+
+.heading {
+    font-family: var(--primary-font);
 }
