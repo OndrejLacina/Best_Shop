@@ -1,0 +1,9 @@
+* {}
+
+:root {
+    --main-color: red;
+}
+
+.container {
+    max-width: var();
+}
