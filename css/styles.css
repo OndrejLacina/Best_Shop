@@ -59,8 +59,9 @@ button {
 }*/
 
 .top {
-    height: 100vh; /* nefunguje? - určuje mi velikost divu momentálně asi ten obrázek */
-}
+    background-color: goldenrod; /* měl jsem tu height: 100vh nefunguje? - určuje mi velikost divu momentálně asi ten obrázek */
+} 
+
 
 /* ---  FLEXBOX, POSITIONS, DIVS -- FOR SECTION TOP*/   /* */
 .top-container {
@@ -123,3 +124,24 @@ button {
     background-color: #08A6E4;
     color: white;
 }
+/* */
+
+/* --- DRUHÁ SEKCE - 3 PICS --- */
+/* flexbox a pozicování*/
+.popular {
+    background-color: rgb(255, 229, 196);
+    height: 40vh;
+}
+
+.popular-text {
+    text-align: center;
+    font-size: 36px;
+    padding: 100px 0px;
+}
+
+.popular-boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Barvy a formátování */
