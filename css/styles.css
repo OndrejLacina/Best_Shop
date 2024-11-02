@@ -1,5 +1,9 @@
+/* TÍMTO JSEM URČIL, ŽE CELÁ STRÁNKA BUDE NA CELOU ŠÍŘKU A JAKO BOX*/
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+
 }
 
 :root {
@@ -15,6 +19,8 @@
     --color-light-grey: #F7F7F7;
     --color-white: #FFFFFF;
 
+    --maximal-width: 1352px;
+
     /** em, rem - setting font size or line height
         
         vw, vh - when you have to force the element to have width or height relative to the screen size (useful when the section has to occupy 100% of the screen height)
@@ -23,12 +29,16 @@
         */
 }
 
+/* */
+
+/* OBECNÁ TŘÍDA NA ŠÍŘKU TEXTU - OBSAHU */
 .container {
-    max-width: var();
+    max-width: var(--maximal-width); /* 1352px */
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.heading {
-    font-family: var(--primary-font-raleway);
-    font-size: 60px;
+/* header {
+    max-width: 100vh;
+}*/
 
-}
