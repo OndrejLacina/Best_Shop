@@ -57,8 +57,9 @@ strong {
     font-weight: bold;
 }
 
-body {
-    background-color: goldenrod; /* pomocné */
+li {
+    font-family: var(--secondary-font-opensans);
+    font-size: 14px;
 }
 /* */
 
@@ -247,4 +248,29 @@ body {
     height: 3px;
     background-color: #55DFB4;
     z-index: 2;
+}
+/* */
+
+
+
+/* --- ČTVRTÁ SEKCE - PRICING --- */
+/* FLEXBOX a POSITIONING*/
+
+.pricing {
+    padding: 100px 0px;
+}
+
+.pricing-container {
+    padding: 0 100px;
+}
+
+.pricing-h3 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 1em;
+}
+
+.pricing-boxes {
+    display: flex;
+    justify-content: space-between;
 }
