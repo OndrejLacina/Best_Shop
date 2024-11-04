@@ -172,19 +172,41 @@
 
 
 
-    <section>
-        <h2>HTML Forms</h2>
+    <section class="contact">
+        <div class="contact-container container">
+            <div class="contact-divs">
+                <h2>Any questions?</h2>
+                <p>Leave your e-mail address or call us!</p>
+                <div class="contact-icons">
+                    <div>
+                        <img src="./images/Mail Icon.svg" alt="">
+                        <p>info@bestshop.xyz</p>
+                    </div>
+                    <div>
+                        <img src="./images/Phone Icon.svg" alt="">
+                        <p>123 456 789</p>
+                    </div>
+                </div>
+            </div>
 
-        <form action="/action_page.php">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value="John"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value="Doe"><br><br>
-            <input type="submit" value="Submit">
-        </form>
+            <div class="contact-divs">
+                <form action="/action_page.php">
+                    <label for="fname">Name:</label><br>
+                    <input type="text" id="fname" name="fname" value=""><br>
+                    <label for="lname">E-mail:</label><br>
+                    <input type="text" id="lname" name="lname" value=""><br><br>
 
-        <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
-
+                    <input type="checkbox">
+                    <p>I hereby give consent for my personal data included in my application to be processed for the
+                        purposes of the recruitment process under the European Parliament’s and Council of the European
+                        Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the
+                        processing of personal data and on the free movement of such data, and repealing Directive
+                        95/46/EC (Data Protection Directive)
+                    </p>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
     </section>
 
 </body>
